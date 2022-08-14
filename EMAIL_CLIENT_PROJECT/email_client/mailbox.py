@@ -5,11 +5,6 @@ from tkinter import messagebox
 
 my_messages = []
 
-"""------------------------------"""
-# sender_pass_goshomaster97@gmail.com = 'roxxnjywjqjlyklu'
-"""------------------------------"""
-
-
 def get_inbox():
     host = 'imap.gmail.com'
     username = mail_entry.get()

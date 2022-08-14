@@ -2,7 +2,6 @@ from tkinter import *
 from email_client.email_sender import email_sender
 from email_client.mailbox import authenticate
 
-
 root = Tk()
 root.geometry('400x280')
 root.title('George\'s Email Client')

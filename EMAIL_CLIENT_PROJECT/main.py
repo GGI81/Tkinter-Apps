@@ -2,10 +2,6 @@ from tkinter import *
 from email_client.email_sender import email_sender
 from email_client.mailbox import authenticate
 
-"""------------------------------"""
-# sender_pass_goshomaster97@gmail.com = 'roxxnjywjqjlyklu'
-"""------------------------------"""
-
 
 root = Tk()
 root.geometry('400x280')

@@ -48,12 +48,6 @@ def mailbox():
                 scrollbar2.pack(side=BOTTOM, fill=X)
                 array = Listbox(top, yscrollcommand=scrollbar.set, xscrollcommand=scrollbar2.set)
                 for line in range(len(my_messages)):
-                    # array.insert(END, f'Subject: {my_messages[line]["subject"]}'
-                    #              f'Receiver: {my_messages[line]["to"]}' + '\n' +
-                    #              f'Sender: {my_messages[line]["from"]}' + '\n' +
-                    #              f'Date: {my_messages[line]["date"]}' + '\n' +
-                    #              f'Body: {my_messages[line]["body"]}' + '\n'
-                    #              )
                     array.insert(END, f'  Subject: {my_messages[line]["subject"]}')
                     array.insert(END, f'  Receiver: {my_messages[line]["to"]}')
                     array.insert(END, f'  Sender: {my_messages[line]["from"]}')

@@ -1,0 +1,36 @@
+1. Requirements
+    -> Python (version 3 +)
+        -> Python Modules:
+            * tkinter -> from tkinter import *, from tkinter import messagebox, from tkinter import filedialog
+            * email   -> from email.message import EmailMessage
+            * imghdr
+            * smtplib
+            * imaplib
+
+2. Installation
+    * Python Installation -> https://www.python.org/downloads/
+    * Tkinter (if not having it) -> https://www.tutorialspoint.com/how-to-install-tkinter-in-python
+    * imghdr -> built in, if not try pip
+
+3. Program
+    The program is in three parts. Main.py, where is the main structure of the program and it is visualising the main window.
+    In the email_client directory there are two files. The first one, which is the email_sender.py file represents the
+    logic and the window for the Email Sender. In the second one, which is the mailbox.py file represents the logic and
+    the window for the Mailbox.
+
+4. The Code
+    The code is in the same directory
+
+5. Goals
+    * To send e-mails with attachments from a g-mail account with SMTP.
+    * To read e-mails in your g-mail inbox with IMAP
+
+6. Future Updates
+    * To add DB
+    * To add functionality for removing attachments
+
+7. Credits
+    Tkinter -> 1. https://docs.python.org/3/library/tkinter.html         2. The presentations from Filip Andonov
+    Imghdr Module -> 1. https://docs.python.org/3/library/imghdr.html
+    Email Sender -> 1. https://docs.python.org/3/library/smtplib.html    2. https://www.youtube.com/c/johangodinho
+    Imaplib -> 1. https://docs.python.org/3/library/imaplib.html         2. https://www.youtube.com/watch?v=6DD4IOHhNYo

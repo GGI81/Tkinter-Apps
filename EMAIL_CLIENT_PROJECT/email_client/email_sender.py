@@ -29,7 +29,7 @@ def send_email():
         for file_name in attachments:
             file_type = file_name.split('.')
             # print(file_type)  # ['C:/Users/Georg/OneDrive/Desktop/7', '8_OTSO', 'jpg']
-            file_type = file_type[-1]
+            file_type = file_type[-1]  # [-1 because it is possible to has more than one "." in the filename]
             if file_type == 'jpg' or file_type == 'png' or file_type == 'jpeg':
                 with open(file_name, 'rb') as f:
                     data = f.read()
